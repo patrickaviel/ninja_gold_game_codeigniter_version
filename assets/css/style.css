@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+        *{
+            margin: 0;
+            border: 0;
+            font-family: 'Lekton', sans-serif;
+        }
+        body{
+            background-color: black;
+        }
+        .main-container{
+            color: white;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            line-height: 50px;
+        }
+        .main-container h2{
+            text-align: left;
+        }
+        .activities{
+            color:black;
+            text-align: left;
+            border:1px solid #FFD700;
+            background-color: white;
+            height:200px;
+            width:100%;
+            margin:auto;
+            overflow:scroll;
+            line-height:20px;
+        }
+        form{
+            display: inline-block;
+            width: 20%;
+            padding: 20px;
+            border: 1px solid white;
+        }
+        .interface h2{
+            text-align: left;
+        }
+        input[type="submit"]{
+            border: 1px solid #FFD700;
+            background-color: black;
+            color: #FFD700;
+            padding: 10px;
+            cursor: pointer;
+        }
+        p{
+            color:black;
+        }
